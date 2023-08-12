@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Weather-and-prayer-time/static/css/main.96f538f9.css",
+    "main.js": "/Weather-and-prayer-time/static/js/main.0d860c6d.js",
+    "static/js/787.7311dca4.chunk.js": "/Weather-and-prayer-time/static/js/787.7311dca4.chunk.js",
+    "index.html": "/Weather-and-prayer-time/index.html",
+    "main.96f538f9.css.map": "/Weather-and-prayer-time/static/css/main.96f538f9.css.map",
+    "main.0d860c6d.js.map": "/Weather-and-prayer-time/static/js/main.0d860c6d.js.map",
+    "787.7311dca4.chunk.js.map": "/Weather-and-prayer-time/static/js/787.7311dca4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96f538f9.css",
+    "static/js/main.0d860c6d.js"
+  ]
+}

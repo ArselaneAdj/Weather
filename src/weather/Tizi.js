@@ -164,7 +164,7 @@ function Tizi() {
       <hr class="hr" />
       <div className="place" >
         <Link to="/Imagest">Images</Link>
-        <Link to="/Tizi">Restaurants</Link>
+        <Link to="/Restat">Restaurants</Link>
         <Link to="/Alger">Museums</Link>
       </div>
       <div className="sets d-flex flex-column">

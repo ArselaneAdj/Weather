@@ -10,6 +10,11 @@ import Mapp from "./weather/Mapp";
 import Imagesa from "./pages/images/Imagesa";
 import Imagesb from "./pages/images/Imagesb";
 import Imagest from "./pages/images/Imagest";
+import Resta from "./restaurants/Resta";
+import Restb from "./restaurants/Restb";
+import Restat from "./restaurants/Restat";
+
+
 
 
 
@@ -38,6 +43,10 @@ function App() {
           <Route path="/imagesa" element={<Imagesa />} />
           <Route path="/imagesb" element={<Imagesb />} />
           <Route path="/imagest" element={<Imagest />} />
+          <Route path="/resta" element={<Resta />} />
+          <Route path="/restb" element={<Restb />} />
+          <Route path="/restat" element={<Restat />} />
+
 
         </Routes>
       </Router>

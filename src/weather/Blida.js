@@ -157,7 +157,7 @@ function Blida() {
       <hr class="hr" />
       <div className="place" >
         <Link to="/Imagesa">Images</Link>
-        <Link to="/Tizi">Restaurants</Link>
+        <Link to="/Resta">Restaurants</Link>
         <Link to="/Alger">Museums</Link>
       </div>
       <div className="sets d-flex flex-column">

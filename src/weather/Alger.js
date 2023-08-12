@@ -163,7 +163,7 @@ function Alger() {
       <hr class="hr" />
       <div className="place" >
         <Link to="/Imagesb">Images</Link>
-        <Link to="/Tizi">Restaurants</Link>
+        <Link to="/Restb">Restaurants</Link>
         <Link to="/Alger">Museums</Link>
       </div>
       <div className="sets d-flex flex-column">

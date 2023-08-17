@@ -120,7 +120,7 @@ function Tizipt() {
   return (
     <div className="Alger text-center">
       <div className="header display-1"><b>TIZI-OUZOU</b> PRAYER TIMES</div>
-      <div className="place" >
+      <div className="d-flex justify-content-around" >
         <Link to="/Algerpt">ALGER</Link>
         <Link to="/Tizipt">TIZI-OUZOU</Link>
         <Link to="/Asr">BOUMERDES</Link>

@@ -140,34 +140,38 @@ function Alger() {
     }
  }
 
+ 
+
 
  function test(){
-  if(document.querySelector(".sets") != null){
-    document.querySelector("#today").innerHTML ="tommorow's temperature: <br>" + tempt +"C"; 
-  }};
+    if(document.querySelector("#today").innerHTML ==="Show Tommorow!"){
+      document.querySelector("#today").innerHTML ="tommorow's temperature: <br>" + tempt +"C"; 
+    }else{
+      document.querySelector("#today").innerHTML ="Show Tommorow!"
+    }
+  };
 
 
   return (
     <div className="Alger text-center">
       <div className="header display-1"><b>BOUMERDES</b> WEATHER NOW</div>
       
-      <div className="place" >
-        <Link to="/Blida">ALGER</Link>
-        <Link to="/Tizi">TIZI-OUZOU</Link>
-        <Link to="/Alger">BOUMERDES</Link>
+      <div className="d-flex justify-content-around" >
+        <Link to="/Algetpt">ALGER</Link>
+        <Link to="/Tizipt">TIZI-OUZOU</Link>
+        <Link to="/Asr">BOUMERDES</Link>
         <Link to="/">HOME</Link>
-        
       </div>
 
       <div className="bi bi-arrow-right"></div> 
       <hr class="hr" />
-      <div className="place" >
+      <div className="d-flex justify-content-around" >
         <Link to="/Imagesb">Images</Link>
         <Link to="/Restb">Restaurants</Link>
         <Link to="/Alger">Museums</Link>
       </div>
-      <div className="sets d-flex flex-column">
-        <div id="today" onClick={test} >Click for Tommorow!</div>
+      <div className="sets d-flex flex-column ">
+        <div id="today" onClick={test} >Show Tommorow!</div>
         <div className="p-2" style={styles.popup} dangerouslySetInnerHTML={{__html: danger }} />
         <div id="T" className="p-2">temperature: {temp}C</div>
         <div className="p-2">wind speed: {wind}km/h</div>

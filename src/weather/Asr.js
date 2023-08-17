@@ -116,18 +116,20 @@ function Asr() {
     fetchData();
   }, []);
 
+  
 
+  
 
+  
 
   return (
     <div className="Alger text-center">
       <div className="header display-1"><b>BOUMERDES</b> PRAYER TIMES</div>
-      <div className="place" >
+      <div className="d-flex justify-content-around" >
         <Link to="/Algerpt">ALGER</Link>
         <Link to="/Tizipt">TIZI-OUZOU</Link>
         <Link to="/Asr">BOUMERDES</Link>
         <Link to="/">HOME</Link>
-
       </div>
 
       <div className="bi bi-arrow-right"></div> 
@@ -139,7 +141,7 @@ function Asr() {
         <div className="p-2">dhuhr: {dhuhr}<Clock /></div>
         <div className="p-2">asr: {asr}<Clock /></div>
         <div className="p-2">maghrib: {maghrib}<Clock /></div>
-        <div className="p-2">isha: {isha}<Clock /></div>
+        <div className="p-2">isha: {isha}<Clock /><br/><div id="sha" style={{fontWeight:"lighter", fontSize:"35px"}}></div></div>
       </div>
     </div>
   );

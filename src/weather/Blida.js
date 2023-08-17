@@ -137,15 +137,19 @@ function Blida() {
 
 
  function test(){
-  if(document.querySelector(".sets") != null){
+  if(document.querySelector("#today").innerHTML ==="Show Tommorow!"){
     document.querySelector("#today").innerHTML ="tommorow's temperature: <br>" + tempt +"C"; 
-  }};
+  }else{
+    document.querySelector("#today").innerHTML ="Show Tommorow!"
+  }
+};
+
 
   return (
     <div className="Alger text-center">
-      <div className="header display-1"><b>ALGER</b> WEATHER NOW</div>
+      <div className="header display-1"><b>ALGER</b> WEATHER<br/> NOW</div>
 
-      <div className="place" >
+      <div className="d-flex justify-content-around" >
         <Link to="/Blida">ALGER</Link>
         <Link to="/Tizi">TIZI-OUZOU</Link>
         <Link to="/Alger">BOUMERDES</Link>
@@ -155,7 +159,7 @@ function Blida() {
 
       <div className="bi bi-arrow-right"></div> 
       <hr class="hr" />
-      <div className="place" >
+      <div className="d-flex justify-content-around" >
         <Link to="/Imagesa">Images</Link>
         <Link to="/Resta">Restaurants</Link>
         <Link to="/Alger">Museums</Link>

@@ -143,15 +143,19 @@ function Tizi() {
 
 
  function test(){
-  if(document.querySelector(".sets") != null){
+  if(document.querySelector("#today").innerHTML ==="Show Tommorow!"){
     document.querySelector("#today").innerHTML ="tommorow's temperature: <br>" + tempt +"C"; 
-  }};
+  }else{
+    document.querySelector("#today").innerHTML ="Show Tommorow!"
+  }
+};
+
 
 
   return (
     <div className="Alger text-center">
-      <div className="header display-1"><b>TIZI-OUZOU</b> WEATHER NOW</div>
-      <div className="place" >
+      <div className="header display-1"><b>TIZI-OUZOU</b> WEATHER<br/> NOW</div>
+      <div className="d-flex justify-content-around" >
         <Link to="/Blida">ALGER</Link>
         <Link to="/Tizi">TIZI-OUZOU</Link>
         <Link to="/Alger">BOUMERDES</Link>
@@ -162,7 +166,7 @@ function Tizi() {
 
       <div className="bi bi-arrow-right"></div> 
       <hr class="hr" />
-      <div className="place" >
+      <div className="d-flex justify-content-around" >
         <Link to="/Imagest">Images</Link>
         <Link to="/Restat">Restaurants</Link>
         <Link to="/Alger">Museums</Link>
